@@ -96,7 +96,7 @@ p {
     box-shadow: #FF707035 0px 3px 60px;
 }
 
-@media (min-width: 360px) and (max-width:759px) {
+@media (min-width: 360px) and (max-width:767px) {
     .navbar .container {
         position: relative;
     }
@@ -707,7 +707,7 @@ p {
     }
 }
 
-@media (min-width: 760px) and (max-width:1019px) {
+@media (min-width: 768px) and (max-width:1019px) {
     .navbar .container {
         position: relative;
     }
@@ -720,7 +720,7 @@ p {
         width: calc(100% - 6%) !important;
     }
     p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .user-box {
         position: relative;
@@ -730,9 +730,7 @@ p {
         border-radius: 50%;
     }
     .user-box .navbar-toggler-icon {
-        padding: 15px;
-        margin-left: 10px;
-        cursor: pointer;
+        display: none;
     }
     .user-box .notification {
         width: 20px;
@@ -753,9 +751,8 @@ p {
         font-family: Poppins;
         font-weight: 500;
         font-size: 16px;
-        color: var(--primary);
+        color: var(--white);
         margin-left: 15px;
-        display: none;
     }
     .user-box span.user-box-name::after {
         content: '\f0d7';
@@ -764,11 +761,11 @@ p {
     }
     .red-right-box {
         width: 250px;
-        height: 50vh;
+        height: 100vh;
         background-color: var(--red);
         position: absolute;
         right: 0;
-        top: 70vh;
+        top: 0vh;
         z-index: -1;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -781,8 +778,8 @@ p {
     .dot-background {
         width: 250px;
         position: absolute;
-        left: -100px;
-        top: 70vh;
+        right: 250px;
+        top: 20vh;
         z-index: -1;
     }
     .dot-container {
@@ -890,6 +887,7 @@ p {
         margin-right: 10px;
     }
     .top-resto {
+        margin-top: 30vh;
         height: 100vh;
     }
     .top-resto .sidebar-heading {
@@ -1013,13 +1011,13 @@ p {
     }
     .booking .green-leaf {
         position: absolute;
-        left: -30%;
+        left: -20%;
         height: 50%;
         z-index: 10;
     }
     .booking .cabbage-leaf {
         position: absolute;
-        right: -17%;
+        right: -12%;
         width: 300px;
         z-index: 10;
     }
@@ -1111,18 +1109,18 @@ p {
         padding-left: 25px;
     }
     .our-services .icons {
-        width: 350px;
+        width: 250px;
     }
     .our-services .text-box h1 {
         font-family: Poppins;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 600;
         color: var(--primary);
     }
     .our-services .text-box .long-line {
         display: inline-block;
         height: 4px;
-        width: 40px;
+        width: 30px;
         margin-bottom: 3px;
         border-radius: 10px;
         background-color: var(--red);
@@ -1130,7 +1128,7 @@ p {
     .our-services .text-box .long-line-2 {
         display: inline-block;
         height: 4px;
-        width: 60px;
+        width: 50px;
         margin-bottom: 3px;
         border-radius: 10px;
         background-color: var(--red);
@@ -1147,7 +1145,7 @@ p {
         padding: 50px;
     }
     .our-services .delivery .scooter-icon {
-        width: 150px;
+        width: 100px;
     }
     .our-services .delivery .long-line {
         width: 100px
@@ -1168,7 +1166,7 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 50vh;
+        height: 100vh;
     }
     .download .sidebar-heading {
         border: solid var(--red);
@@ -1196,7 +1194,7 @@ p {
         position: relative;
     }
     .download .appscreen .mobile {
-        height: 50vh;
+        height: 100vh;
         position: absolute;
         top: 0;
         right: 0;
@@ -1205,16 +1203,16 @@ p {
         z-index: 10;
     }
     .download .appscreen .cabbage-leaf {
-        width: 200px;
+        width: 400px;
         position: absolute;
-        top: 25vh;
-        left: 9vw;
+        top: 40vh;
+        left: -9vw;
     }
     .download .appscreen .square-dots {
         position: absolute;
-        width: 200px;
-        top: 10vh;
-        left: 15vw;
+        width: 400px;
+        top: 15vh;
+        left: 5vw;
     }
     .footer {
         height: 80vh;
@@ -1281,7 +1279,7 @@ p {
         color: var(--white);
     }
     .footer .flex-row {
-        width: 100%;
+        width: 60%;
         display: flex;
         justify-content: space-between;
         margin: 20px auto;

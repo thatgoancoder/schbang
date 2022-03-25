@@ -80,7 +80,7 @@
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
     .slider {
         position: relative;
         width: 100%;
@@ -121,7 +121,7 @@
     .control {
         position: absolute;
         cursor: pointer;
-        top: 55vh;
+        top: 65vh;
         z-index: 99;
         width: 80px;
     }
@@ -129,14 +129,14 @@
         width: 80%;
     }
     .prev {
-        right: 0px;
+        right: 100px;
     }
     .prev:hover {
         -webkit-animation: dragleft 1s infinite ease-in;
         animation: dragleft 1s infinite ease-in;
     }
     .next {
-        right: -100px;
+        right: 0px;
     }
     .next:hover {
         -webkit-animation: dragright 1s infinite ease-in;
